@@ -1,0 +1,100 @@
+/* 
+    Document   : style1.css
+    Created on : May 8, 2013, 4:29:31 PM
+    Author     : manojtamilselvan
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+root { 
+    display: block;
+}
+
+body{
+    background: #999999;
+    padding-left: 20px;
+    
+    }
+    
+*{  
+   margin:0;  
+   padding:0;  
+ }
+    
+#wrapper{
+        background: white;
+        padding-left: 60px;
+        padding-top: 200px;
+        width: 960px;
+        height: 1100px;
+        margin:0 auto;
+        position: relative;
+        }
+        
+        
+#searchaddress{
+              
+              
+               border-right:none;
+               height: 43px;
+               width: 50%;
+               margin: 0;
+               padding: 4px;
+               font-size: 20px;
+               margin-left: 20px;
+               background-color: transparent;
+               
+              }
+              
+              
+              
+              
+ #button{
+                 
+                 font-size: 15px;
+                 vertical-align:top;
+                 margin: 0;
+                 font-family: Verdana, Arial;
+                 background-color: orangered;
+                 padding: 4px;
+                 color: white;
+                 height: 53px;
+                 width: 100px;
+                 border: transparent;
+               
+                
+                 
+                 
+       }   
+       
+       #effect{
+           padding-left: 20px;
+           font-size: 25px;
+       }
+       
+           
+         
+              
+      ul {
+        font-size: 20px;
+        list-style-type: none;
+        padding-left: 20px;
+        margin: 0;
+        height: 400px;
+        width: 61.5%;
+        overflow-y: scroll;
+      }
+      
+       li{
+           background-color: #ffcccc;
+          padding-left: 20px;
+          padding-top: 20px;
+      }
+      
+       li:nth-child(odd) {
+           background-color: #ccccff;
+          padding-left: 20px;
+          padding-top: 20px;
+      }
+      
+      
